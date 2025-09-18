@@ -1,27 +1,23 @@
 
 
 ## Cấu trúc
-LAB1/
-│
-├── data/
-│   └── UD_English-EWT/               
-│
-├── src/
-│   ├── core/
-│   │   ├── dataset_loaders.py        
-│   │   └── interfaces.py             
-│   │
-│   ├── preprocessing/
-│   │   ├── simple_tokenizer.py       
-│   │   └── regex_tokenizer.py        
-│   │
-│   └── representation/
-│       └── count_vectorizer.py       
-│
-├── test/
-│   └── lab2_test.py                  
-│
-└── main.py 
+
+- LAB1/
+  - data/
+    - UD_English-EWT/
+  - src/
+    - core/
+      - dataset_loaders.py
+      - interfaces.py
+    - preprocessing/
+      - simple_tokenizer.py
+      - regex_tokenizer.py
+    - representation/
+      - count_vectorizer.py
+  - test/
+    - lab2_test.py
+  - main.py
+
                         
 ```
 
