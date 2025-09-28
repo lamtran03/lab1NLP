@@ -1,0 +1,46 @@
+[0m[[0m[31merror[0m] [0m[0mD:\University\5_1_Subjects\NLP\Lab2\src\main\scala\lab2.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\University\5_1_Subjects\NLP\Lab2\src\main\scala\lab2.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.Pipeline[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\University\5_1_Subjects\NLP\Lab2\src\main\scala\lab2.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.PipelineStage[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\University\5_1_Subjects\NLP\Lab2\src\main\scala\lab2.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.feature._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\University\5_1_Subjects\NLP\Lab2\src\main\scala\lab2.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.ml.classification.LogisticRegression[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\University\5_1_Subjects\NLP\Lab2\src\main\scala\lab2.scala:6:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\University\5_1_Subjects\NLP\Lab2\src\main\scala\lab2.scala:11:17: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    val spark = SparkSession.builder[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\University\5_1_Subjects\NLP\Lab2\src\main\scala\lab2.scala:37:11: not found: type RegexTokenizer[0m
+[0m[[0m[31merror[0m] [0m[0m      new RegexTokenizer()[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\University\5_1_Subjects\NLP\Lab2\src\main\scala\lab2.scala:42:11: not found: type Tokenizer[0m
+[0m[[0m[31merror[0m] [0m[0m      new Tokenizer().setInputCol("text").setOutputCol("tokens")[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\University\5_1_Subjects\NLP\Lab2\src\main\scala\lab2.scala:46:32: not found: type StopWordsRemover[0m
+[0m[[0m[31merror[0m] [0m[0m    val stopWordsRemover = new StopWordsRemover()[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\University\5_1_Subjects\NLP\Lab2\src\main\scala\lab2.scala:51:25: not found: type HashingTF[0m
+[0m[[0m[31merror[0m] [0m[0m    val hashingTF = new HashingTF()[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\University\5_1_Subjects\NLP\Lab2\src\main\scala\lab2.scala:56:19: not found: type IDF[0m
+[0m[[0m[31merror[0m] [0m[0m    val idf = new IDF()[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\University\5_1_Subjects\NLP\Lab2\src\main\scala\lab2.scala:60:24: not found: type Word2Vec[0m
+[0m[[0m[31merror[0m] [0m[0m    val word2Vec = new Word2Vec()[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\University\5_1_Subjects\NLP\Lab2\src\main\scala\lab2.scala:67:18: not found: type LogisticRegression[0m
+[0m[[0m[31merror[0m] [0m[0m    val lr = new LogisticRegression()[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\University\5_1_Subjects\NLP\Lab2\src\main\scala\lab2.scala:84:24: not found: type Pipeline[0m
+[0m[[0m[31merror[0m] [0m[0m    val pipeline = new Pipeline().setStages(stages)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m15 errors found[0m
