@@ -1,0 +1,7 @@
+--- Performance Metrics ---
+Pipeline fitting duration: 2.98 seconds
+Transformation duration: 1.25 seconds
+Vocabulary size: 31438
+Tokenizer: RegexTokenizer
+Vectorizer: HashingTF+IDF(numFeatures=20000)
+Logistic Regression: false
