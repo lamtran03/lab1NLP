@@ -1,0 +1,8 @@
+--- Performance Metrics ---
+Read data duration: 3.63 seconds
+Pipeline fitting duration: 2.50 seconds
+Transformation duration: 1.14 seconds
+Vocabulary size: 31438
+Tokenizer: RegexTokenizer
+Vectorizer: HashingTF+IDF+Normalizer(numFeatures=20000)
+Logistic Regression: false
